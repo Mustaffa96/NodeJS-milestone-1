@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-milestone-1",
+  "version": "1.0.0",
+  "description": "Basic Node.js examples including file I/O, HTTP server, and debugging",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "file-io": "node fileIO.js",
+    "debug": "node debugging.js"
+  },
+  "keywords": ["nodejs", "tutorial", "file-io", "http-server", "debugging"],
+  "author": "Mustaffa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
